@@ -1,26 +1,7 @@
 ## happy path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+  - utter_greet_career_guidance
 
 ## say goodbye
 * goodbye
@@ -32,4 +13,12 @@
 
 ## career guidance confused
 * career_guidance_confused
-  - utter_career_guidance_confused
+  - action_respond_confused
+
+## career guidance paths
+* career_guidance_paths
+  - action_respond_career_paths
+
+## career guidance tech
+* career_guidance_technologies
+  - action_respond_technologies

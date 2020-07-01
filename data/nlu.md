@@ -2,6 +2,7 @@
 - hey
 - hello
 - hi
+- hello there
 - good morning
 - good evening
 - hey there
@@ -27,28 +28,6 @@
 - no way
 - not really
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
@@ -69,18 +48,24 @@
 - guide me with career path
 - what can I do for better career
 
-## intent:career_guidance_technologies
+## intent:career_guidance_paths
 - please show me the technologies
 - please show me career paths
 - list out the courses offered
 - List of courses offered
 - Technologies
 - List of technologies
+- career path
+- paths
+- career paths
+- show me career paths
 
-## intent:career_guidance_tech_selected
+## intent:career_guidance_technologies
 - I want to go ahead with [Devops](career_path)
 - show me coursed under [Data Science](career_path)
 - help me with [Python](career_path)
 - [Salesforce](career_path)
 - What can I learn under [Blockchain](career_path)?
 - [RPA](career_path)
+- [Python](career_path)
+- [Java](career_path)

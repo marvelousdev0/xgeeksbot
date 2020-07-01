@@ -1,17 +1,21 @@
 intents:
-  - greet
+  - greet: {triggers: action_greet}
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
   - career_guidance_confused
+  - career_guidance_paths
   - career_guidance_technologies
-  - career_guidance_tech_selected
 
 entities:
   - career_path
+
+actions:
+  - action_greet
+  - action_respond_confused
+  - action_respond_career_paths
+  - action_respond_technologies
 
 responses:
   utter_greet:
@@ -19,19 +23,6 @@ responses:
 
   utter_greet_career_guidance:
     - text: "I can help you with career guidance. Here's few suggestions you can select from."
-
-  utter_career_guidance_confused:
-    - text: We have a comprehensive list of courses. Please refer our [Career Guidance](http://digitalxgeeks.com/careerguidance/) to get more details.
-
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-    - text: "Did that help you?"
-
-  utter_happy:
-    - text: "Great, carry on!"
 
   utter_goodbye:
     - text: "Bye"

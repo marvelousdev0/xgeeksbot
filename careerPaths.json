@@ -1,0 +1,26 @@
+{
+    "paths": [
+      { "path": "Devops", "tech": ["Azure", "Ansible", "Docker", "Kubernetes"] },
+      { "path": "Data Science", "tech": [] },
+      {
+        "path": "Python",
+        "tech": ["Basics", "Python for Data Science", "Python Web (Django)"]
+      },
+      { "path": "Artificial Intelligence", "tech": [] },
+      { "path": "Machine Learning", "tech": ["Python", "Tensorflow"] },
+      { "path": "Cyber Security", "tech": [] },
+      { "path": "Chatbot", "tech": ["Rasa"] },
+      {
+        "path": "Blockchain",
+        "tech": [
+          "Basics",
+          "Advanced",
+          "Advanced with Ethereum",
+          "Advanced with Hyperledger"
+        ]
+      },
+      { "path": "Java", "tech": ["Core", "J2EE", "Spring"] },
+      { "path": ".NET", "tech": ["C#"] }
+    ]
+  }
+  
