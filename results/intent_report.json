@@ -1,40 +1,12 @@
 {
-  "mood_great": {
+  "affirm": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
-  "career_guidance_technologies": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "career_guidance_tech_selected": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
+    "support": 5,
     "confused_with": {}
   },
   "deny": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "greet": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -48,25 +20,39 @@
     "support": 4,
     "confused_with": {}
   },
-  "career_guidance_confused": {
+  "bot_challenge": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 4,
     "confused_with": {}
   },
-  "affirm": {
+  "greet": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
+    "support": 7,
     "confused_with": {}
   },
-  "mood_unhappy": {
+  "career_guidance_technologies": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "career_guidance_paths": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 10,
+    "confused_with": {}
+  },
+  "career_guidance_confused": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
     "confused_with": {}
   },
   "accuracy": 1.0,
@@ -74,12 +60,12 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 61
+    "support": 56
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 61
+    "support": 56
   }
 }
