@@ -61,11 +61,20 @@
 - show me career paths
 
 ## intent:career_guidance_technologies
-- I want to go ahead with [Devops](career_path)
-- show me coursed under [Data Science](career_path)
-- help me with [Python](career_path)
-- [Salesforce](career_path)
-- What can I learn under [Blockchain](career_path)?
-- [RPA](career_path)
-- [Python](career_path)
-- [Java](career_path)
+- I want to go ahead with
+- show me courses for
+- Show me courses under
+- I need details for
+- Need details
+- Show me details for
+- show me details
+- I want to go ahead with [Devops](career_path_entity)
+- show me coursed under [Data Science](career_path_entity)
+- help me with [Python](career_path_entity)
+- [Salesforce](career_path_entity)
+- What can I learn under [Blockchain](career_path_entity)?
+- [RPA](career_path_entity)
+- [Python](career_path_entity)
+- [Java](career_path_entity)
+- [devops](career_path_entity)
+- [devops](career_path_entity)

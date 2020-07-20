@@ -22,3 +22,11 @@
 ## career guidance tech
 * career_guidance_technologies
   - action_respond_technologies
+## interactive_story_1
+* career_guidance_paths
+    - action_respond_career_paths
+* career_guidance_technologies{"career_path": "devops"}
+    - form_action_career_path
+    - form{"name": "form_action_career_path"}
+    - slot{"requested_slot": "slot_career_path"}
+    - action_respond_technologies
